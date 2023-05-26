@@ -38,6 +38,12 @@
                 <div class="col-6 p-2 left-side">
                     <h1 class="pt-3 pb-3">Aaron Low</h1>                
                     <h4 class="pt-3 pb-3">Graduating Fall 2023 Computer Science Major Looking for a 2023 Summer Internship</h4>
+                    <div class="container" id="scroll-navbar">
+                        <ul>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#experience">Experience</a></li>
+                        </ul>
+                    </div>
                     <div class="skills">
                         <h5 class="m-0 p-0">Skills</h5>
                         <p class="m-0 p-0">Computer: Java, JavaScript, HTML, CSS, Python, MySQL, React.js, C</p>
@@ -56,40 +62,45 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-6 p-2 right-side">
+                <div data-bs-spy="scroll" data-bs-target="#scroll-navbar" class="col-6 p-2 right-side">
                     <div>
-                        <h2>Projects</h2>
+                        <h2 id="projects">Projects</h2>
                         <div class="container my-4 p-1 bg-dark">
-                            <h6 class="p-4">CS152 - Enrollment Tracker</h6>
-                            <p>Description</p>
+                            <h6 class="px-4 py-2">CS152 - Enrollment Tracker</h6>
+                            <p class="px-4">Used HTML, JavaScript, CSS, Bootstrap, and Chart.js to design a chart user interface for students to query a database full of class seat history.</p>
+                            <p class="px-4">Links: <a href="http://52.89.145.17/">Website</a></p>
                         </div>
                         <div class="container my-4 p-1 bg-dark">
-                            <h6 class="p-4">CS157a - Vacation Search</h6>
-                            <p>Description</p>
+                            <h6 class="px-4 py-2">CS157a - Vacation Search</h6>
+                            <p class="px-4">Utilized Oracle 11 XE database and Java/SQL to query the database and return travel information as JSON. Installed a web server using Java ServerSocket to handle post and get requests from Front End Fetch API.</p>
                         </div>
                         <div class="container my-4 p-1 bg-dark">
-                            <h6 class="p-4">CS151 - Password Manager</h6>
-                            <p>Description</p>
+                            <h6 class="px-4 py-2">CS151 - Password Manager</h6>
+                            <p class="px-4">Collaborated with a team of 3 to design an application that generates and manages passwords. Applied object oriented programming principles using JavaFx and Java to develop the UI, UX, and connection to SQLite Database to support users.</p>
                         </div>
                         <div class="container my-4 p-1 bg-dark">
-                            <h6 class="p-4">CS151 - Password Manager</h6>
-                            <p>Description</p>
-                        </div>
-                        <div class="container my-4 p-1 bg-dark">
-                            <h6 class="p-4">CS151 - Password Manager</h6>
-                            <p>Description</p>
-                        </div>
-                        <div class="container my-4 p-1 bg-dark">
-                            <h6 class="p-4">CS151 - Password Manager</h6>
-                            <p>Description</p>
-                        </div>
-                        <div class="container my-4 p-1 bg-dark">
-                            <h6 class="p-4">CS151 - Password Manager</h6>
-                            <p>Description</p>
+                            <h6 class="px-4 py-2">Software & Computer Engineering Society Hackathon 2021 – MbrNet</h6>
+                            <p class="px-4">Managed a team of 3 to build a website about wildfires and decrease response times. Created a user interface designed with a map populated by waypoints from a database, Firebase using Leaflet.js, JavaScript, and Bootstrap.</p>
                         </div>
                     </div>
                     <div>
-                        <h2>Experience</h2>
+                        <h2 id="experience">Experience</h2>
+                        <div class="container my-4 p-1 bg-dark">
+                            <h6 class="px-4 py-2">Undergraduate Reserach Assistant (NSF)</h6>
+                            <p class="px-4">Focused on data collection, organization, and metadata analysis of Netcdf Files using UCAR’s Netcdf Java Library to help create a crawler for indexing Netcdf Files into a database. Assisted professor in creating the design and schema of a noSQL Wildfire Database</p>
+                        </div>
+                        <div class="container my-4 p-1 bg-dark">
+                            <h6 class="px-4 py-2">AmeriCorps Vista Summer Associate</h6>
+                            <p class="px-4">Built Scratch games for K-8 Math curriculum to generate interest in programming and introduce abstractions, variables, and fractions to advance students' math capabilities. Developed R programming content for High School/College Curriculum to introduce and appeal data analysis to STEM students.</p>
+                        </div>
+                        <div class="container my-4 p-1 bg-dark">
+                            <h6 class="px-4 py-2">Computer Science Teaching Assistant</h6>
+                            <p class="px-4">Mentored Java concepts to freshman and sophomore students on a 1-on-1 basis. Educated 30 students about Object Oriented Programming concepts.</p>
+                        </div>
+                        <div class="container my-4 p-1 bg-dark">
+                            <h6 class="px-4 py-2">Badminton Assistant coach</h6>
+                            <p class="px-4">Coached students on a 1 on 1 basis and with group training.Taught and cultivated basic skills: smash, net drop, lift, etc. Developed and created physical routines/workouts to improve students’ physical strength and abilities.</p>
+                        </div>
                     </div>
                 </div>
             </div>
